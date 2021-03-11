@@ -1,0 +1,13 @@
+.related-articles {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+
+  &__article {
+    flex-basis: 32%;
+  }
+
+  &__img {
+    height: 200px;
+  }
+}

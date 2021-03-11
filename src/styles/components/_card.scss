@@ -1,0 +1,23 @@
+.card {
+  border: 2px solid rgb(246, 247, 249);
+  border-radius: 4px;
+
+  &__title {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  &__body,
+  &__header,
+  &__footer {
+    padding: 16px 8px;
+  }
+
+  &__body {
+    background-color: rgb(246, 247, 249);
+
+    &--full-width {
+      padding: 0;
+    }
+  }
+}

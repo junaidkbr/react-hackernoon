@@ -1,0 +1,18 @@
+.image {
+  &--bordered {
+    box-shadow:
+      rgb(194, 202, 214) 0px 0.2em,
+      rgb(194, 202, 214) 0px -0.2em,
+      rgb(194, 202, 214) 0.2em 0px,
+      rgb(194, 202, 214) -0.2em 0px;
+  }
+
+  &--responsive {
+    height: auto;
+    width: 100%;
+  }
+
+  &--fit {
+    object-fit: cover;
+  }
+}

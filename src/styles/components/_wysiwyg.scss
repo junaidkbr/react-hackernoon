@@ -1,0 +1,39 @@
+.wysiwyg {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+
+  &__main {
+    max-width: $width-wysiwyg;
+
+    blockquote {
+      font-size: 1.6em;
+      font-style: italic;
+      margin-bottom: 42px;
+      text-align: center;
+    }
+
+    .paragraph {
+      font-size: 1.3em;
+    }
+
+    .code-container {
+      font-size: 1.2em;
+      padding: 12px;
+
+      pre {
+        border-radius: 4px;
+        box-shadow: 0 4px 8px solid rgba(0, 0, 0, 0.1);
+      }
+    }
+
+    .paragraph,
+    .code-container {
+      margin-bottom: 28px;
+    }
+  }
+
+  &__aside {
+    max-width: $width-wysiwyg-aside;
+  }
+}

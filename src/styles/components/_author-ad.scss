@@ -1,0 +1,25 @@
+.author-ad {
+  background-color: rgb(33, 36, 40);
+  border-radius: 2px;
+  border: 4px solid $color-primary;
+  padding: 16px 28px;
+
+  &,
+  a {
+    color: $color-primary;
+  }
+
+  &__description {
+    font-size: 22px;
+    font-weight: bold;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  &__info,
+  &__description {
+    flex-basis: 50%;
+  }
+}

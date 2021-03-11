@@ -1,0 +1,27 @@
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tag {
+  box-shadow:
+    rgb(194, 202, 214) 0px 0.2em,
+    rgb(194, 202, 214) 0px -0.2em,
+    rgb(194, 202, 214) 0.2em 0px,
+    rgb(194, 202, 214) -0.2em 0px;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px;
+  margin: 0 12px 16px 0;
+  text-decoration: none;
+
+  &,
+  &:hover {
+    background: none;
+  }
+
+  &:hover {
+    background-color: $color-primary;
+  }
+}

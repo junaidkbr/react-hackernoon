@@ -1,0 +1,9 @@
+$color-black: #111;
+$color-white: #FFF;
+$color-light-gray: #EEE;
+$color-primary: #0F0;
+
+$width-container: 1150px;
+
+$width-wysiwyg: ($width-container / 100px) * 60px; // 60% of $width-container
+$width-wysiwyg-aside: ($width-container / 100px) * 20px; // 20% of $width-container

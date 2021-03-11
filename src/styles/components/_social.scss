@@ -1,0 +1,16 @@
+.social {
+  font-size: 14px;
+
+  &__text {
+    font-size: 16px;
+    margin-right: 12px;
+  }
+
+  &__item {
+    font-size: 22px;
+
+    &:not(:last-child) {
+      margin-right: 12px;
+    }
+  }
+}

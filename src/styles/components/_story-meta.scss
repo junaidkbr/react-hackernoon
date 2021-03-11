@@ -1,0 +1,40 @@
+.story-meta {
+  font-size: 14px;
+
+  // story-meta-stats
+  &__stats-wrapper {
+    margin-bottom: 22px;
+  }
+
+  &__date {
+    color: $color-black;
+    display: inline-block;
+    margin-right: 12px;
+    text-decoration: none;
+  }
+
+  &__read-count {
+    background-color: $color-light-gray;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 8px;
+  }
+
+  &__bookmark {
+    display: inline-block;
+  }
+
+    // story-meta-reactions
+  &__emojis {
+    font-size: 24px;
+
+    > .emoji:not(:last-child) {
+      margin-right: 8px;
+    }
+  }
+
+  &__reactions-count {
+    font-weight: bold;
+    margin-right: 16px;
+  }
+}
